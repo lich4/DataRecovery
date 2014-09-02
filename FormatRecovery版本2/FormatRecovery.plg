@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FormatRecovery - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/FormatRecovery.res" /d "_DEBUG" /d "_AFXDLL" "I:\temp\FormatRecovery改进\FormatRecovery.rc"" 
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSPA62B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FormatRecovery.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\temp\FormatRecovery改进\FormatDefs.cpp"
+"I:\temp\FormatRecovery改进\FormatRecovery.cpp"
+"I:\temp\FormatRecovery改进\FormatRecoveryDlg.cpp"
+"I:\temp\FormatRecovery改进\ShowInfo.cpp"
+]
+Creating command line "cl.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSPA62B.tmp" 
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSPA62C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FormatRecovery.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\temp\FormatRecovery改进\StdAfx.cpp"
+]
+Creating command line "cl.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSPA62C.tmp" 
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSPA62D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FormatRecovery.pdb" /debug /machine:I386 /out:"Debug/FormatRecovery.exe" /pdbtype:sept 
+".\Debug\FormatDefs.obj"
+".\Debug\FormatRecovery.obj"
+".\Debug\FormatRecoveryDlg.obj"
+".\Debug\ShowInfo.obj"
+".\Debug\StdAfx.obj"
+".\Debug\FormatRecovery.res"
+]
+Creating command line "link.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSPA62D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+i:\temp\formatrecovery改进\stdafx.h(21) : fatal error C1083: Cannot open include file: 'afxdialogex.h': No such file or directory
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+FormatRecovery.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

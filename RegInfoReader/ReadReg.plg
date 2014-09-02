@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ReadReg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ReadReg.res" /d "_DEBUG" /d "_AFXDLL" "K:\BaiduYunDownload\我的代码\ReadReg\ReadReg.rc"" 
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSP4F30.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ReadReg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\BaiduYunDownload\我的代码\ReadReg\ReadReg.cpp"
+"K:\BaiduYunDownload\我的代码\ReadReg\ReadRegDlg.cpp"
+]
+Creating command line "cl.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSP4F30.tmp" 
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSP4F31.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ReadReg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\BaiduYunDownload\我的代码\ReadReg\StdAfx.cpp"
+]
+Creating command line "cl.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSP4F31.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ReadReg.pdb" /debug /machine:I386 /out:"Debug/ReadReg.exe" /pdbtype:sept  ".\Debug\ReadReg.obj" ".\Debug\ReadRegDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\ReadReg.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ReadReg.cpp
+ReadRegDlg.cpp
+K:\BaiduYunDownload\我的代码\ReadReg\ReadRegDlg.cpp(217) : warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+K:\BaiduYunDownload\我的代码\ReadReg\ReadRegDlg.cpp(228) : warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+K:\BaiduYunDownload\我的代码\ReadReg\ReadRegDlg.cpp(261) : warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+K:\BaiduYunDownload\我的代码\ReadReg\ReadRegDlg.cpp(276) : warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+K:\BaiduYunDownload\我的代码\ReadReg\ReadRegDlg.cpp(298) : warning C4244: 'initializing' : conversion from '__int64' to 'unsigned long', possible loss of data
+K:\BaiduYunDownload\我的代码\ReadReg\ReadRegDlg.cpp(313) : warning C4244: 'initializing' : conversion from '__int64' to 'unsigned long', possible loss of data
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ReadReg.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ReadReg.sbr" ".\Debug\ReadRegDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ReadReg.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

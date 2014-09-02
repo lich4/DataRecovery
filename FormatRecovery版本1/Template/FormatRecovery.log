@@ -1,0 +1,22 @@
+﻿生成启动时间为 2013/11/6 14:37:02。
+     1>项目“G:\Users\Administrator\Desktop\temp\FormatRecovery改进\FormatRecovery.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Template\FormatRecovery.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Template\\" /Fd"Template\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FormatDefs.cpp FormatRecovery.cpp FormatRecoveryDlg.cpp ShowInfo.cpp StdAfx.cpp
+         FormatDefs.cpp
+     1>D:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         FormatRecovery.cpp
+     1>D:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         FormatRecoveryDlg.cpp
+     1>D:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         ShowInfo.cpp
+     1>D:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         StdAfx.cpp
+     1>D:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         正在生成代码...
+     1>已完成生成项目“G:\Users\Administrator\Desktop\temp\FormatRecovery改进\FormatRecovery.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.51

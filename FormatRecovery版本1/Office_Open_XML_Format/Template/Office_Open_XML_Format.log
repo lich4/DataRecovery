@@ -1,0 +1,19 @@
+﻿生成启动时间为 2013/11/6 14:36:59。
+     1>项目“G:\Users\Administrator\Desktop\temp\FormatRecovery改进\Office_Open_XML_Format\Office_Open_XML_Format.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Template\Office_Open_XML_Format.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Template\\" /Fd"Template\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Office_Open_XML_Format.cpp StdAfx.cpp
+         Office_Open_XML_Format.cpp
+         StdAfx.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Users\Administrator\Desktop\temp\FormatRecovery改进\Template\Office_Open_XML_Format.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Template\Office_Open_XML_Format.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"G:\Users\Administrator\Desktop\temp\FormatRecovery改进\Template\Office_Open_XML_Format.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Users\Administrator\Desktop\temp\FormatRecovery改进\Template\Office_Open_XML_Format.lib" /MACHINE:X86 Template\Office_Open_XML_Format.obj
+         Template\StdAfx.obj
+            正在创建库 G:\Users\Administrator\Desktop\temp\FormatRecovery改进\Template\Office_Open_XML_Format.lib 和对象 G:\Users\Administrator\Desktop\temp\FormatRecovery改进\Template\Office_Open_XML_Format.exp
+     1>LINK : fatal error LNK1561: 必须定义入口点
+     1>已完成生成项目“G:\Users\Administrator\Desktop\temp\FormatRecovery改进\Office_Open_XML_Format\Office_Open_XML_Format.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.68

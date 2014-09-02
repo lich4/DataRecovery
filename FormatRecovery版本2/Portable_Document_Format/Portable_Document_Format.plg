@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Portable_Document_Format - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSP7D62.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "PORTABLE_DOCUMENT_FORMAT_EXPORTS" /FR"Debug/" /Fp"Debug/Portable_Document_Format.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"G:\Users\Administrator\Desktop\temp\FormatRecovery\Portable_Document_Format\Portable_Document_Format.cpp"
+]
+Creating command line "cl.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSP7D62.tmp" 
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSP7D63.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/Portable_Document_Format.pdb" /debug /machine:I386 /out:"../ext/Portable_Document_Format.dll" /implib:"Debug/Portable_Document_Format.lib" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\Portable_Document_Format.obj
+]
+Creating command line "link.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSP7D63.tmp"
+<h3>Output Window</h3>
+Compiling...
+Portable_Document_Format.cpp
+g:\users\administrator\desktop\temp\formatrecovery\common.h(168) : warning C4172: returning address of local variable or temporary
+G:\Users\Administrator\Desktop\temp\FormatRecovery\Portable_Document_Format\Portable_Document_Format.cpp(67) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Portable_Document_Format.bsc"  .\Debug\StdAfx.sbr .\Debug\Portable_Document_Format.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Portable_Document_Format.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

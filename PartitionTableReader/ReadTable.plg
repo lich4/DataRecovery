@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ReadTable - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ReadTable.res" /d "_DEBUG" /d "_AFXDLL" "K:\BaiduYunDownload\我的代码\ReadTable\ReadTable.rc"" 
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSP5B1D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ReadTable.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\BaiduYunDownload\我的代码\ReadTable\ReadTable.cpp"
+"K:\BaiduYunDownload\我的代码\ReadTable\ReadTableDlg.cpp"
+]
+Creating command line "cl.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSP5B1D.tmp" 
+Creating temporary file "G:\Users\ADMINI~1\AppData\Local\Temp\RSP5B1E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ReadTable.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\BaiduYunDownload\我的代码\ReadTable\StdAfx.cpp"
+]
+Creating command line "cl.exe @G:\Users\ADMINI~1\AppData\Local\Temp\RSP5B1E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ReadTable.pdb" /debug /machine:I386 /out:"Debug/ReadTable.exe" /pdbtype:sept  ".\Debug\ReadTable.obj" ".\Debug\ReadTableDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\ReadTable.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ReadTable.cpp
+ReadTableDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ReadTable.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ReadTable.sbr" ".\Debug\ReadTableDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ReadTable.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Compound_File_Binary_Format - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1277.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "COMPOUND_FILE_BINARY_FORMAT_EXPORTS" /FR"Debug/" /Fp"Debug/Compound_File_Binary_Format.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\temp\FormatRecovery\Compound_File_Binary_Format\Compound_File_Binary_Format.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1277.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1278.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/Compound_File_Binary_Format.pdb" /debug /machine:I386 /out:"../ext/Compound_File_Binary_Format.dll" /implib:"Debug/Compound_File_Binary_Format.lib" /pdbtype:sept 
+.\Debug\Compound_File_Binary_Format.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1278.tmp"
+<h3>Output Window</h3>
+Compiling...
+Compound_File_Binary_Format.cpp
+c:\users\administrator\desktop\temp\formatrecovery\common.h(168) : warning C4172: returning address of local variable or temporary
+c:\users\administrator\desktop\temp\formatrecovery\compound_file_binary_format\defs.h(43) : warning C4200: nonstandard extension used : zero-sized array in struct/union
+C:\Users\Administrator\Desktop\temp\FormatRecovery\Compound_File_Binary_Format\Compound_File_Binary_Format.cpp(86) : warning C4018: '<' : signed/unsigned mismatch
+C:\Users\Administrator\Desktop\temp\FormatRecovery\Compound_File_Binary_Format\Compound_File_Binary_Format.cpp(142) : warning C4018: '<' : signed/unsigned mismatch
+C:\Users\Administrator\Desktop\temp\FormatRecovery\Compound_File_Binary_Format\Compound_File_Binary_Format.cpp(174) : warning C4018: '>' : signed/unsigned mismatch
+Linking...
+LINK : LNK6004: ../ext/Compound_File_Binary_Format.dll not found or not built by the last incremental link; performing full link
+   Creating library Debug/Compound_File_Binary_Format.lib and object Debug/Compound_File_Binary_Format.exp
+
+
+
+<h3>Results</h3>
+Compound_File_Binary_Format.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

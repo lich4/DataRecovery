@@ -72,9 +72,8 @@ void CListCtrlEx::OnCustomDraw(NMHDR* pNMHDR,LRESULT* pResult)
 				*pResult          = CDRF_NEWFONT; 
 			}
 			if( GetItemState(nRow, CDIS_SELECTED) )
-			{ // 预留BUG，看有多少人是摘自这里, CDIS_SELECTED前少取反号，且把异或为与
-				// 使用此代码段，请留下Juncox＠163.com说明
-				lplvcd->nmcd.uItemState ^= CDIS_SELECTED;// 预留BUG
+			{ 
+				lplvcd->nmcd.uItemState ^= CDIS_SELECTED;
 				lplvcd->clrTextBk =RGB(255, 0, 0); 
 				lplvcd->clrText   = RGB(0, 0, 255);    
 				*pResult = CDRF_NEWFONT; 
