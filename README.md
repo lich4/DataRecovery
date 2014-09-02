@@ -11,3 +11,4 @@ Data-Recovery-Related
 
 \FindString  磁盘敏感数据快速扫描工具
 
+\FormatRecovery 版本1 格式化磁盘数据恢复工具，目前只做了文档类型格式化恢复，不过具有较强的扩展性
