@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeepScan", "DeepScan.vcxproj", "{BC061463-75D5-3721-E26C-0AC905FCE267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC061463-75D5-3721-E26C-0AC905FCE267}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC061463-75D5-3721-E26C-0AC905FCE267}.Debug|Win32.Build.0 = Debug|Win32
+		{BC061463-75D5-3721-E26C-0AC905FCE267}.Release|Win32.ActiveCfg = Release|Win32
+		{BC061463-75D5-3721-E26C-0AC905FCE267}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
